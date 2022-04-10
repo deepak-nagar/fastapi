@@ -3,7 +3,7 @@
 <script>
    
    let r = (Math.random() + 1).toString(36).substring(7);
-    var ws = new WebSocket('ws://localhost:8000/ws/123123123');
+    var ws = new WebSocket('ws://ec2-54-204-115-164.compute-1.amazonaws.com:8000/ws/123213');
  ws.onopen = function () {
      console.log('socket connection opened properly');
      ws.send("deeasdasd"); // send a message
